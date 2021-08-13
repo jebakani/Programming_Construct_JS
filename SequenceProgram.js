@@ -28,3 +28,9 @@ console.log("Average of 5 two digit num:"+sum/5);
 const INCH=12;
 let var1=42;
 console.log(""+var1+" inch="+42/INCH+" Feet");
+
+//P5-B Finding area of field
+const LENGTH=40;
+const BREADTH=60;
+let plotArea=LENGTH*BREADTH;
+console.log("total area of 25 plot :"+plotArea*25);
