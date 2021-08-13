@@ -14,9 +14,9 @@ for(let i=2;i<=Math.sqrt(num);i++)
 //check the ISPRIME value
 if(ISPRIME)
 {
-    console.log("{0} is the prime number",num);
+    console.log(""+num+" is the prime number");
 }
 else
 {
-    console.log("{0} is not a prime number",num);
+    console.log(""+num+" is not a prime number");
 }
