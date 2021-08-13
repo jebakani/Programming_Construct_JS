@@ -23,3 +23,8 @@ for(let i=0;i<5;i++)
 }
 console.log("Sum of five two digit number:"+sum);
 console.log("Average of 5 two digit num:"+sum/5);
+
+//P5-A-Unit conversion inch to feet
+const INCH=12;
+let var1=42;
+console.log(""+var1+" inch="+42/INCH+" Feet");
