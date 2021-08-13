@@ -29,9 +29,9 @@ function IsPalindrome(num)
   }
 }
 //funtion to print the result
-function CheckPrimeResult(res,num)
+function CheckPrimeResult(num)
 {
-    if(res)
+    if(IsPrime(num))
     {
         console.log(""+num+" is prime");
     }
@@ -40,17 +40,18 @@ function CheckPrimeResult(res,num)
         console.log(""+num+" is not prime");
     }
 }
+//function to print the result
+function CheckPalindromeResult(num) {
+    if (IsPalindrome(num)) {
+        console.log(""+num+" is palindrome");
+    }
+    else {
+        console.log(""+num+ " is not palindrome");
+    }
+
+}
 //get inpu from the user
 var prompt = require('prompt-sync')();
 var num = prompt('Enter the value of n: ');
-let res=IsPrime(num);
-CheckPrimeResult(res,num);
-res=IsPalindrome(num);
-if(res)
-{
-    console.log("number is palindrome");
-}
-else
-{
-    console.log("number is not palindrome");
-}
+CheckPrimeResult(num);
+CheckPalindromeResult(num);
