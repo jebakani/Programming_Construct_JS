@@ -12,3 +12,14 @@ let dice1=Math.floor(Math.random()*6)+1;
 let dice2=Math.floor(Math.random()*6)+1;
 let sum= dice1+dice2;
 console.log("P3-Dice number 1 :"+dice1+"\nDice number 2:"+dice2+"\nSum of two dice:"+sum);
+
+sum=0;
+//P4-Generating 5 random 2 digit number . find sum and average
+for(let i=0;i<5;i++)
+{
+    let num=Math.floor(Math.random()*100)+10;
+    console.log(num);
+    sum+=num;
+}
+console.log("Sum of five two digit number:"+sum);
+console.log("Average of 5 two digit num:"+sum/5);
